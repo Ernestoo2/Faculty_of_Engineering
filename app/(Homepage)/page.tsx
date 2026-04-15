@@ -1,11 +1,11 @@
 import { FaXTwitter } from "react-icons/fa6";
-import FacultyHeader from "./_component/FacultyHeader";
-import FacultyTabs from "./_component/FacultyTabs";
-import FacultyLinks from "./_component/FacultyLinks";
-import FacultyFooter from "./_component/FacultyFooter";
+import FacultyHeader from "../_component/FacultyHeader";
+import FacultyTabs from "../_component/FacultyTabs";
+import FacultyLinks from "../_component/FacultyLinks";
+import FacultyFooter from "../_component/FacultyFooter";
 import Link from "next/link";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main >
       <FacultyHeader />
