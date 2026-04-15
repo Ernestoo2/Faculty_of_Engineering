@@ -55,6 +55,33 @@ Open `http://localhost:3000` to view the site.
 - `pnpm start` — start the production server
 - `pnpm lint` — run ESLint
 
+## Vercel CLI
+
+If you need the Vercel CLI, use `pnpm exec` or `pnpm dlx`:
+
+```bash
+pnpm exec vercel
+```
+
+Or to run it once without installing:
+
+```bash
+pnpm dlx vercel
+```
+
+If you want to install it locally for repeated use:
+
+```bash
+pnpm add -D vercel
+pnpm exec vercel
+```
+
+Or to install a plugin via the Vercel CLI:
+
+```bash
+pnpm dlx vercel plugins add vercel/vercel-plugin
+```
+
 ## Notes
 
 - Interactive components that use React state are marked with `use client`.
