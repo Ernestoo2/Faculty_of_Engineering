@@ -58,13 +58,13 @@ export default function FacultyContact() {
                         <p className="leading-7 text-sm text-gray-400">{member.biography}</p>
                         <div className="space-y-2 text-sm">
                             <p>
-                                <span className="font-semibold text-slate-300">Tel:</span>{" "}
+                                <span className="font-semibold text-black">Tel:</span>{" "}
                                 <a href={`tel:${member.tel}`} className="text-sky-400 hover:text-sky-300">
                                     {member.tel}
                                 </a>
                             </p>
                             <p>
-                                <span className="font-semibold text-slate-300">Email:</span>{" "}
+                                <span className="font-semibold text-black">Email:</span>{" "}
                                 <a href={`mailto:${member.email}`} className="text-sky-400 hover:text-sky-300">
                                     {member.email}
                                 </a>

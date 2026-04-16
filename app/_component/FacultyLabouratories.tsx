@@ -25,7 +25,7 @@ export default function FacultyLabouratories() {
   return (
     <section>
       <article className="space-y-5">
-        <h1 className="font-bold text-md">Our Laboratories and Workshop Facilities</h1>
+        <h1 className="font-bold text-black text-md">Our Laboratories and Workshop Facilities</h1>
         <p className="text-sm text-gray-400 tracking-tight flex-wrap">
           The best practice in contemporary engineering education is
           to facilitate in-depth understanding of theoretical engineering concepts
@@ -38,7 +38,7 @@ export default function FacultyLabouratories() {
       </article>
 
       <article className="mt-5">
-        <h1 className="font-bold text-md">Department of Electrical and Electronic Engineering</h1>
+        <h1 className="font-bold text-black text-md">Department of Electrical and Electronic Engineering</h1>
         <ul style={{ listStyleType: "square" }} className="list-inside marker:text-gray-400 mt-5 space-y-3 text-sm font-light tracking-tighter text-gray-400">
           <li>Power and Machine Laboratory</li>
           <li>Control and Automation Laboratory</li>

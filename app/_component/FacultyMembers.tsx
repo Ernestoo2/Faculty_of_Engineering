@@ -162,7 +162,7 @@ export default function FacultyMembers() {
         <div className="border border-gray-400 overflow-x-auto">
             <table className="min-w-full border-collapse">
                 <thead>
-                    <tr className="border-b-2 border-blue-600 text-left text-xs uppercase tracking-[0.2em] text-gray-400">
+                    <tr className="border-b-2 border-blue-600 text-left text-black text-xs uppercase tracking-[0.2em] ">
                         <th className="px-4 w-16 py-3">S/N</th>
                         <th className="px-4 py-3">Name</th>
                         <th className="px-4 py-3">Designation</th>

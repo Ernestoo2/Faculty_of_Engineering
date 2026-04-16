@@ -3,7 +3,7 @@
 export default function FacultyAbout() {
     return (
         <article >
-            <h3 className="font-bold text-md">About the Faculty</h3>
+            <h3 className="font-bold text-md text-black">About the Faculty</h3>
             <section className="mt-6 text-sm  font-light text-gray-400 tracking-tighter text-wrap">
                 <p>
                     The LCU Faculty of Engineering had its first set of students in the 2019/2020 academic session after a successful resource
@@ -27,14 +27,14 @@ export default function FacultyAbout() {
 
             <hr className="my-12 text-gray-400" />
 
-            <h3 className="font-bold text-md">Our vision</h3>
+            <h3 className="font-bold text-black text-md">Our vision</h3>
             <p className=" text-sm mt-4 font-light text-gray-400 tracking-tighter text-wrap">
                 Our Vision is to produce engineering graduate professionals
                 that are second to none in Africa; who would be in
                 very high demand in the industry by virtue of their well-developed engineering skills and professional/academic integrity.
             </p>
 
-            <h3 className="font-bold mt-6 text-md">Our Mission</h3>
+            <h3 className="font-bold text-black mt-6 text-md">Our Mission</h3>
             <article className="text-sm font-light text-gray-400 tracking-tighter">
                 <p className="mb-4">At the Faculty of Engineering, our missions are to: </p>
                 <ul className="list-disc list-inside marker:text-gray-400 mt-5 text-sm font-light tracking-tighter">
@@ -56,7 +56,7 @@ export default function FacultyAbout() {
 
             <hr className="text-gray-400 my-6" />
 
-            <h3 className="font-bold text-md">Admission Requirements</h3>
+            <h3 className="font-bold text-black text-md">Admission Requirements</h3>
             <p className="text-gray-400 mt-3 text-sm tracking-tight font-light ">
                 At least five (5) credits in SSCE/GCE/NECO including Mathematics, English Language, Physics and Chemistry.
             </p>
@@ -70,7 +70,7 @@ export default function FacultyAbout() {
                 OND and HND candidates with requisite qualification are also admissible through Direct Entry and Conversion options
             </p>
 
-            <h3 className="font-bold my-6 text-md">Why You Should Study Engineering at LCU</h3>
+            <h3 className="font-bold text-black my-6 text-md">Why You Should Study Engineering at LCU</h3>
             <p className="text-gray-400 text-sm tracking-tight font-light ">
                 Engineering is a broad field that offers exciting career opportunities for creativity and for finding
                 solutions to problems. If you are considering a career in engineering, you should consider Lead City University as
